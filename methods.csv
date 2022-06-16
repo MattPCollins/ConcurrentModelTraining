@@ -1,0 +1,37 @@
+﻿method,algorithm,mode,number_disks,duration
+concurrent.futures,fbprophet,four workers,100,74.46575913
+sequential,combined,four workers,1000,2842.583811
+pandas UDFs,combined,four workers,1000,167.5836092
+sequential,fbprophet,four workers,100,278.9984515
+concurrent.futures,linear regression,four workers,1000,8.201310688
+pandas UDFs,fbprophet,four workers,1000,216.7224484
+sequential,fbprophet,four workers,1000,2825.821549
+pandas UDFs,linear regression,four workers,100,6.583453517
+concurrent.futures,combined,four workers,100,75.55173886
+sequential,linear regression,four workers,100,1.026961729
+pandas UDFs,combined,four workers,100,130.7794168
+concurrent.futures,linear regression,four workers,100,0.914867268
+pandas UDFs,fbprophet,four workers,100,271.475929
+concurrent.futures,fbprophet,four workers,1000,733.6324744
+sequential,linear regression,four workers,1000,10.73260394
+concurrent.futures,linear regression,single node,1000,5.582272185
+sequential,combined,four workers,100,288.204071
+pandas UDFs,linear regression,four workers,1000,4.254914442
+pandas UDFs,fbprophet,single node,100,74.52466456
+concurrent.futures,combined,four workers,1000,554.8599813
+concurrent.futures,linear regression,single node,100,0.710492398
+pandas UDFs,linear regression,single node,100,5.494357377
+sequential,fbprophet,single node,100,283.5355684
+sequential,linear regression,single node,100,1.241801611
+sequential,linear regression,single node,1000,8.498526367
+pandas UDFs,combined,single node,1000,672.0978932
+pandas UDFs,linear regression,single node,1000,16.40738874
+pandas UDFs,fbprophet,single node,1000,489.5573412
+concurrent.futures,fbprophet,single node,1000,457.6416136
+sequential,combined,single node,100,282.3153542
+concurrent.futures,combined,single node,1000,458.9990046
+concurrent.futures,fbprophet,single node,100,49.0579906
+sequential,fbprophet,single node,1000,2088.574728
+concurrent.futures,combined,single node,100,48.04129461
+pandas UDFs,combined,single node,100,675.2853888
+sequential,combined,single node,1000,1785.650824
